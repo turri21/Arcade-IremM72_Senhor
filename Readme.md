@@ -1,3 +1,9 @@
+-=(IremM72_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+Dev notes: Select the "Arcade-IremM72-Fast.qsf" in Quartus to synthesize it.
+___
 # Irem M72 Core
 
 ![](docs/header_small.png)
