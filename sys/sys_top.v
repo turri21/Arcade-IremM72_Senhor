@@ -128,17 +128,17 @@ module sys_top
 ///////////////////////// Senhor: Initializations ////////////////////////
 
 
-(* keep = 1 *) wire [5:0] VGA_R;
-(* keep = 1 *) wire [5:0] VGA_G;
-(* keep = 1 *) wire [5:0] VGA_B;
-(* keep = 1 *) wire VGA_HS;
-(* keep = 1 *) wire VGA_VS;
+wire [5:0] VGA_R;
+wire [5:0] VGA_G;
+wire [5:0] VGA_B;
+wire VGA_HS;
+wire VGA_VS;
 wire VGA_EN = 1'b1;
 
-(* keep = 1 *) wire [3:0] SDIO_DAT;
-(* keep = 1 *) wire SDIO_CMD = 1'b1;
-(* keep = 1 *) wire [6:0] USER_IO;
-(* keep = 1 *) wire SD_SPI_MISO = 1'b1;
+wire [3:0] SDIO_DAT;
+wire SDIO_CMD = 1'b1;
+wire [6:0] USER_IO;
+wire SD_SPI_MISO = 1'b1;
 
 wire BTN_RESET = 1'b1, BTN_OSD = 1'b1, BTN_USER = 1'b1;
 
