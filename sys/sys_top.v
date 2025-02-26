@@ -1269,8 +1269,8 @@ altddio_out
 )
 hdmiclk_ddr
 (
-	.datain_h(1'b0),
-	.datain_l(1'b1),
+	.datain_h(1'b1),
+	.datain_l(1'b0),
 	.outclock(hdmi_tx_clk),
 	.dataout(HDMI_TX_CLK),
 	.aclr(1'b0),
